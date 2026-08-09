@@ -1,0 +1,24 @@
+.pio/
+.vscode/
+.idea/
+.DS_Store
+__pycache__/
+*.pyc
+*.log
+*.tmp
+*.bak
+compile_commands.json
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Release binaries and demo videos belong in GitHub Releases, not Git history.
+dist/
+demo/
+*.bin
+*.elf
+*.map
+*.mp4
+*.mov
